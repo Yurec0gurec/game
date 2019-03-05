@@ -1,0 +1,23 @@
+.shuffle{
+    -display: flex;
+    position: relative;
+    height: 3rem;
+    -margin: 0 auto;
+}
+.shuffle li {
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    float: left;
+    box-shadow: inset 0 0 0 5px #ffffff;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background: #663399;
+    list-style: none;
+    user-select: none;
+    color: #F8F8FF;
+}
+.shuffle li.over{
+    z-index: 100;
+}

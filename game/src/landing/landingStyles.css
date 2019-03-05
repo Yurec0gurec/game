@@ -1,0 +1,156 @@
+body {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: aliceblue;
+}
+
+footer {
+    width: 100%;
+    max-height: 100%;
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: fixed;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu li {
+    float: left;
+    display: block;
+}
+
+.menu a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 59px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.menu li a:hover {
+    transition: ease-in-out 0.3s;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.toGame {
+    width: 100%;
+    height: 100vh;
+    background: #200122;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gameplay {
+    width: 100%;
+    height: 100%;
+    background: #603813;  /* fallback for old browsers */
+    padding-top: 20px;
+background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.wrapper {
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+}
+
+.screenshots {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    background: hsla(0, 0%, 100%, .5);
+    border-radius: 5%;
+}
+
+.screenshot {
+    max-width: 100%;
+    width: 290px;
+    margin: 15px;
+    cursor: pointer;
+    transition: .25s ease-in-out;
+    border-radius: 15px;
+}
+
+.screenshot:hover {
+    transform: scale(1.4);
+}
+
+.playButton {
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    color: #fff;
+    background-color: darkorange;
+    padding: 10px 24px;
+    cursor: pointer;
+    transition: .25s ease-in-out;
+}
+
+.playButton:hover {
+    background-color: firebrick;
+}
+
+.playButton p {
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.authorInfo p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.authorInfo ul {
+    list-style: none;
+}
+
+.authorInfo a {
+    color: darkorange;
+}

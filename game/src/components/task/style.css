@@ -1,0 +1,40 @@
+#magicTask{
+    display: none;
+    background: #ffffff;
+    padding: 1rem 0;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+#magicTask button{
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    background: steelblue;
+    color: #ffffff;
+    border: 1px solid #4682B4;
+}
+#magicTask button:focus{
+    border-color: #ffffff;
+}
+#taskCaption{
+    margin: 1rem;
+    text-align: center;
+}
+#taskBody{
+    position: relative;
+    min-height: 3rem;
+    margin: 1rem 0;
+}
+#taskBody input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+#taskBody span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
